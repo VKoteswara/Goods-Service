@@ -26,6 +26,6 @@ public class GoodsController {
 
         System.out.println("Response Received as " + body );
 
-        return "School Name -  " + goodsName + " \n Student Details " + body;
+        return "Goods Name -  " + goodsName + " \n item Details " + body;
     }
 }
